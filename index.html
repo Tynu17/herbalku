@@ -3,19 +3,20 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Juraganku - Agen Produk Herbal Resmi</title>
-  <meta name="description" content="Juraganku adalah agen resmi produk herbal dari PT Bariklana. Jual Gomilk, Hitapro, Femile, Sabun Sulfur, dan lainnya. Terpercaya & Terjangkau.">
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <title>Juraganku - Agen Produk Herbal</title>
+  <meta name="description" content="Juraganku adalah agen resmi produk herbal terbaik di Indonesia.">
   <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
+  <!-- Header -->
   <header>
     <div class="navbar">
       <img src="img/Home/Logo.png" alt="Logo Juraganku" class="logo">
       <nav>
         <ul>
-          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="home.html" class="active">Home</a></li>
           <li><a href="about.html">About</a></li>
           <li><a href="katalog.html">Katalog</a></li>
           <li><a href="testimoni.html">Testimoni</a></li>
@@ -27,57 +28,63 @@
   </header>
 
   <main>
-    <section class="hero">
-      <img src="img/Home/Hero2.png" alt="Gomilk Bariklana" class="hero-image">
+    <!-- Sekilas Juraganku -->
+    <section class="intro">
+      <h1>Sekilas Juraganku</h1>
+      <p>Juraganku adalah agen resmi penyedia produk dari beberapa perusahaan di Indonesia. Tujuan awal terbentuknya Juraganku adalah atas dasar kebermanfaatan, yaitu bagaimana caranya agar kita dapat menolong banyak orang dalam hal ekonomi dengan menyediakan mereka produk yang baik serta best seller dari beberapa perusahaan dan menciptakan sistem kemitraan yang adil.</p>
     </section>
 
-    <section class="about">
-      <h1>Sekilas Tentang Juraganku</h1>
-      <p>Juraganku adalah agen resmi penyedia produk dari PT Bariklana Insan Herba dan produsen herbal lainnya. Kami menghadirkan produk sehat, halal, dan bermanfaat untuk keluarga Indonesia. Selain jualan, kami membuka peluang usaha lewat kemitraan reseller dan agen.</p>
-      <a href="about.html" class="btn-lengkap">Pelajari Tentang Kami</a>
-    </section>
-
+    <!-- Produk Best Seller -->
     <section class="produk">
       <h2>Produk Best Seller</h2>
-      <div class="produk-list">
+      <div class="produk-grid">
         <div class="produk-item">
-          <img src="img/Home/produkbesteller1.png" alt="Produk 1">
-          <h3>Gomilk Etawa</h3>
+          <img src="img/Home/produkbesteller1.png" alt="GOMILK Box">
+          <h3>GOMILK box 200g</h3>
+          <p>Rp35.000<br><span>4,8 | Terjual 1,5 rb</span></p>
         </div>
         <div class="produk-item">
-          <img src="img/Home/produkbesteller2.png" alt="Produk 2">
-          <h3>Hitapro</h3>
+          <img src="img/Home/produkbesteller2.png" alt="GOMILK Sachet">
+          <h3>GOMILK sachet 25g</h3>
+          <p>Rp5.000<br><span>4,8 | Terjual 1,5 rb</span></p>
         </div>
         <div class="produk-item">
-          <img src="img/Home/produkbesteller3.png" alt="Produk 3">
-          <h3>Femile</h3>
+          <img src="img/Home/produkbesteller3.png" alt="Femile">
+          <h3>Femile Etawa + Collagen</h3>
+          <p>Rp55.000<br><span>4,8 | Terjual 1,5 rb</span></p>
         </div>
       </div>
-      <a href="katalog.html" class="btn-lengkap">Lihat Katalog Lengkap</a>
     </section>
 
-    <section class="testimoni-home">
-      <h2>Testimoni Konsumen</h2>
-      <div class="testi-grid">
-        <img src="img/Home/Testimoni1maag.jpg" alt="Testimoni 1">
-        <img src="img/Home/Testimoni2Linupada kak....jpg" alt="Testimoni 2">
+    <!-- Testimoni Ringkas -->
+    <section class="testimoni-preview">
+      <h2>Testimoni</h2>
+      <div class="testimoni-list">
+        <div class="testi-box">
+          <p><strong>Meredakan sakit maag dan gerd akut</strong><br>Susu Kambing Etawa mengandung mineral alkaline yang dapat menetralkan asam lambung dan membantu penyembuhan Gerd, Maag, Sembelit.</p>
+        </div>
+        <div class="testi-box">
+          <p><strong>Meredakan sakit pinggang dan kaki</strong><br>Alhamdulillah sudah banyak perubahan setelah konsumsi GOMILK 3 kotak.</p>
+        </div>
       </div>
-      <a href="testimoni.html" class="btn-lengkap">Lihat Semua Testimoni</a>
     </section>
 
-    <section class="video-kemitraan">
-      <h2>Program Kemitraan</h2>
-      <video src="video/video_home_kemitraan.mp4" controls></video>
-      <a href="kemitraan.html" class="btn-lengkap">Gabung Jadi Reseller / Agen</a>
+    <!-- Kemitraan CTA -->
+    <section class="kemitraan-cta">
+      <h2>Butuh Tambahan Penghasilan?</h2>
+      <p>Siapa tahu jadi jalan rezekimu!<br>Di Juraganku banyak keuntungan dan manfaat yang ditawarkan. Sudah banyak orang yang membuktikannya. Sekarang giliran kamu.</p>
+      <a href="kemitraan.html" class="btn-lengkap">Join Reseller Sekarang</a>
     </section>
   </main>
 
+  <!-- Footer -->
   <footer>
-    <p>&copy; 2025 Juraganku. All Rights Reserved.</p>
+    <p>&copy; 2024 Ibrahim Tri Nugroho. All Rights Reserved.</p>
+    <p>Contact us :</p>
     <div class="sosmed">
       <a href="https://wa.me/6282114402983" target="_blank"><i class="fab fa-whatsapp"></i></a>
-      <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
-      <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+      <a href="#"><i class="fab fa-facebook"></i></a>
     </div>
   </footer>
 </body>
