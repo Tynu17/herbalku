@@ -3,35 +3,54 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Program Kemitraan</title>
+  <title>Program Kemitraan - Juraganku</title>
   <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
 </head>
 <body>
-  <nav class="navbar">
-    <div class="logo">
-      <img src="img/logo.png" alt="Logo Bariklana" />
+  <!-- Navbar -->
+  <header>
+    <div class="navbar">
+      <img src="img/Home/Logo.png" alt="Logo Bariklana" class="logo" />
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">Tentang</a></li>
+          <li><a href="katalog.html">Katalog</a></li>
+          <li><a href="testimoni.html">Testimoni</a></li>
+          <li><a href="kemitraan.html" class="active">Kemitraan</a></li>
+        </ul>
+      </nav>
+      <a href="https://wa.me/6282114402983" class="wa-btn" target="_blank">
+        <i class="fab fa-whatsapp"></i> 0821-1440-2983
+      </a>
     </div>
-    <ul class="nav-links">
-      <li><a href="index.html">Home</a></li>
-      <li><a href="about.html">Tentang</a></li>
-      <li><a href="katalog.html">Katalog</a></li>
-      <li><a href="testimoni.html">Testimoni</a></li>
-      <li><a href="kemitraan.html" class="active">Kemitraan</a></li>
-    </ul>
-  </nav>
+  </header>
 
-  <section class="video-section">
-    <h2>Simak Video Penjelasan Kemitraan</h2>
-    <div class="video-grid">
-      <video controls>
-        <source src="video/kemitraan1.mp4" type="video/mp4" />
-        Browser Anda tidak mendukung tag video.
-      </video>
-      <video controls>
-        <source src="video/kemitraan2.mp4" type="video/mp4" />
-        Browser Anda tidak mendukung tag video.
-      </video>
+  <!-- Konten Video -->
+  <main>
+    <section class="video-section">
+      <h2>Simak Video Penjelasan Kemitraan</h2>
+      <div class="video-grid">
+        <video controls>
+          <source src="video/Kemitraan/agen.mp4" type="video/mp4" />
+          Browser Anda tidak mendukung video ini.
+        </video>
+        <video controls>
+          <source src="video/Kemitraan/reseller.mp4" type="video/mp4" />
+          Browser Anda tidak mendukung video ini.
+        </video>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Juraganku. All Rights Reserved.</p>
+    <div class="sosmed">
+      <a href="https://wa.me/6282114402983" target="_blank"><i class="fab fa-whatsapp"></i></a>
+      <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+      <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
     </div>
-  </section>
+  </footer>
 </body>
 </html>
