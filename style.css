@@ -1,153 +1,28 @@
-/* ========== RESET & BASE ========== */
-body {
-  margin: 0;
-  padding: 0;
-  font-family: 'Poppins', sans-serif;
-  background: #f9f9f9;
-  color: #333;
-}
-a {
-  text-decoration: none;
-  color: inherit;
-}
-ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-h1, h2, h3 {
-  margin-top: 0;
-}
-img {
-  max-width: 100%;
-  height: auto;
+.video-section {
+  padding: 40px 20px;
+  background-color: #ffffff;
+  text-align: center;
 }
 
-/* ========== NAVBAR ========== */
-.navbar {
-  background: #d9d9d9;
-  color: #333;
-  padding: 1rem 2rem;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
-}
-.navbar .logo {
-  height: 50px;
-  padding: 5px;
-  border-radius: 10px;
-  background: transparent;
-}
-.navbar nav ul {
-  display: flex;
-  gap: 1.5rem;
-}
-.navbar nav a {
-  color: #333;
-  font-weight: bold;
-  background: white;
-  padding: 0.4rem 1rem;
-  border-radius: 30px;
-  transition: background 0.3s ease;
-}
-.navbar nav a:hover {
-  background: #ddd;
-}
-.navbar nav a.active {
-  background: #0e5f3e;
-  color: white;
-}
-.wa-btn {
-  background: #25d366;
-  color: white;
-  padding: 0.5rem 1rem;
-  border-radius: 30px;
-  font-weight: bold;
+.video-section h2 {
+  color: #1a4b32;
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 30px;
 }
 
-/* ========== HERO SECTION ========== */
-.hero-image {
-  width: 100%;
-  display: block;
-}
-.hero {
-  margin-bottom: 2rem;
-}
-
-/* ========== SECTION ========== */
-section {
-  padding: 2rem 1.5rem;
-  max-width: 1024px;
-  margin: auto;
-}
-section h1,
-section h2 {
-  color: #0e5f3e;
-  margin-bottom: 1rem;
-}
-
-/* ========== PRODUK LIST ========== */
-.produk-list, .produk-grid, .testi-grid, .video-wrapper {
+.video-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 1rem;
-  margin-top: 1rem;
-}
-.produk-item {
-  background: white;
-  padding: 1rem;
-  border-radius: 6px;
-  text-align: center;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  gap: 20px;
+  justify-content: center;
+  align-items: stretch;
+  padding: 0 10%;
 }
 
-/* ========== TOMBOL ========== */
-.btn-lengkap {
-  display: inline-block;
-  margin-top: 1rem;
-  background: #0e5f3e;
-  color: white;
-  padding: 0.5rem 1rem;
-  border-radius: 30px;
-  font-weight: bold;
-}
-
-/* ========== FOOTER ========== */
-footer {
-  background: #0e5f3e;
-  color: white;
-  text-align: center;
-  padding: 1.5rem 1rem;
-  margin-top: 2rem;
-}
-.sosmed {
-  margin-top: 0.5rem;
-}
-.sosmed a {
-  color: white;
-  font-size: 1.2rem;
-  margin: 0 0.5rem;
-}
-
-/* ========== RESPONSIVE IMAGE / VIDEO ========== */
-video {
+.video-grid video {
   width: 100%;
-  border-radius: 8px;
-  margin-top: 0.5rem;
-}
-
-/* ========== LIST ========== */
-section ul {
-  margin-top: 0.5rem;
-  padding-left: 1.2rem;
-  list-style-type: disc;
-}
-
-/* ========== FILENAME DISPLAY (optional dev aid) ========== */
-.filename {
-  font-size: 0.8rem;
-  color: #888;
-  margin-bottom: 0.5rem;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
