@@ -69,19 +69,7 @@ img {
   opacity: 0.9;
 }
 
-/* Hero Section */
-.hero {
-  text-align: center;
-  padding: 40px 20px;
-}
-
-.hero-image {
-  max-width: 800px;
-  margin: 0 auto;
-  border-radius: 8px;
-}
-
-/* General Section */
+/* Section Umum */
 section {
   padding: 60px 5%;
   text-align: center;
@@ -114,7 +102,9 @@ ul li {
   text-align: left;
 }
 
-.btn-lengkap {
+/* Tombol */
+.btn-lengkap,
+.mau-btn {
   background-color: #1a4b32;
   color: #fff;
   padding: 10px 20px;
@@ -126,60 +116,48 @@ ul li {
   transition: background-color 0.3s ease;
 }
 
-.btn-lengkap:hover {
+.btn-lengkap:hover,
+.mau-btn:hover {
   background-color: #145d25;
 }
 
-/* Produk List */
-.produk-list,
-.produk-grid,
-.testi-grid {
+/* Kemitraan Card Layout */
+.kemitraan-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 20px;
-  margin-top: 30px;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+  margin-top: 40px;
 }
 
-.produk-item,
-.testi-grid img {
-  background-color: #f3f3f3;
-  padding: 10px;
-  border-radius: 8px;
+.kemitraan-box {
+  background-color: #fff;
+  border: 2px solid #eee;
+  border-radius: 10px;
+  padding: 30px 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease;
 }
 
-.testi-grid img {
-  max-height: 300px;
-  object-fit: contain;
+.kemitraan-box:hover {
+  transform: translateY(-5px);
 }
 
-/* Video Section */
-.video-section {
-  padding: 40px 20px;
-  background-color: #ffffff;
-  text-align: center;
-}
-
-.video-section h2 {
+.kemitraan-box h3 {
+  font-size: 20px;
   color: #1a4b32;
-  font-size: 24px;
-  font-weight: 700;
-  margin-bottom: 30px;
+  margin-bottom: 15px;
 }
 
-.video-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 20px;
-  justify-content: center;
-  align-items: stretch;
-  padding: 0 10%;
+.kemitraan-box p {
+  font-size: 15px;
+  color: #333;
+  margin-bottom: 10px;
 }
 
-.video-grid video {
+.kemitraan-box video {
   width: 100%;
-  height: auto;
-  border-radius: 12px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  border-radius: 8px;
+  margin-top: 10px;
 }
 
 /* Footer */
